@@ -46,6 +46,5 @@ Então(/^o sistema vai realizar a alteração dos dados do funcionário selecion
 end                                                                                  
                                                                                      
 Então(/^a alteração será refletida na lista$/) do                                    
-  click_link('menu_pim_viewEmployeeList')
-  binding.pry        
+  click_link('menu_pim_viewEmployeeList')       
 end                                                                                  
